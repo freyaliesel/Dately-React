@@ -1,3 +1,5 @@
+import SearchForm from "../components/SearchForm";
+
 const Landing = () => {
     return (
         <main>
@@ -13,57 +15,21 @@ const Landing = () => {
                     <br />
 
                     <div>
-                        {/* <form autocomplete="off" className="white-text">
-                            <div className="input-field">
-                                <input
-                                    className="datepicker validate white-text"
-                                    id="datepicker"
-                                    type="text"
-                                    required=""
-                                    aria-required="true"
-                                />
-                                <label for="datepicker">Date</label>
-                                <span
-                                    className="helper-text"
-                                    data-error="Select a date"
-                                ></span>
-                            </div>
-                            <div className="input-field">
-                                <input
-                                    id="location"
-                                    className="autocomplete validate white-text"
-                                    required=""
-                                    aria-required="true"
-                                    type="text"
-                                >
-                                    <label for="location">Neighborhood</label>
-                                    <span
-                                        className="helper-text"
-                                        data-error="Enter a location"
-                                        data-success=""
-                                    ></span>
-                                </input>
-                            </div>
-                            <button
-                                id="submit-btn"
-                                className="xwaves-effect waves-light btn-small"
-                            >
-                                <i
-                                    id="search-icon"
-                                    className="medium material-icons"
-                                >
-                                    search
-                                </i>
-                                Search
-                            </button>
-                        </form> */}
+                        <SearchForm />
 
                         <img
                             className="chicago-img"
-                            src="/assets/images/Chicago.png"
+                            src="assets/images/Chicago.png"
                             alt="chicago"
                         />
                     </div>
+                </div>
+                <div className=" hide-on-small-only col s5 pull-s7">
+                    <img
+                        className="branding-img"
+                        src="./assets/images/Events.png"
+                        alt="events"
+                    />
                 </div>
             </div>
         </main>
