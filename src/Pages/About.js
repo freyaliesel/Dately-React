@@ -14,8 +14,8 @@ const About = () => {
                     <a href="https://materializecss.com/">
                         Materialize CSS Framework
                     </a>
-                    and access Yelp's Fusion API and Google Maps API.
-                    <span style={{ fontWeight: "bold" }}>GitGals</span> is
+                    and access Yelp's Fusion API and Google Maps API. 
+                    <span style={{ fontWeight: "bold" }}> GitGals</span> is
                     comprised of 3 junior Web Developers taking Northwestern
                     University's Full-Stack Coding Bootcamp.
                 </h5>
