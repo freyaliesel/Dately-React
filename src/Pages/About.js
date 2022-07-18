@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div style={{ width: "80%", margin: "auto" }}>
+
             <div className="row">
                 <h1 className="white-text">About Us</h1>
                 <h5 className="flow-text white-text light-weight">
@@ -151,7 +151,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+
     );
 };
 

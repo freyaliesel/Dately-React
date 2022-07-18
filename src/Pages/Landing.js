@@ -2,7 +2,7 @@ import SearchForm from "../components/SearchForm";
 
 const Landing = () => {
     return (
-        <main>
+
             <div className="row">
                 <div className="col l7  push-l5 s12">
                     <h1 className="white-text">EXPERIENCE CHICAGO</h1>
@@ -32,7 +32,7 @@ const Landing = () => {
                     />
                 </div>
             </div>
-        </main>
+
     );
 };
 

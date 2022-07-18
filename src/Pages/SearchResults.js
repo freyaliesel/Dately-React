@@ -1,6 +1,6 @@
 const SearchResults = () => {
     return (
-        <div style={{ width: "80%", margin: "auto" }}>
+
             <div className="row">
                 <div
                     id="yelp-container"
@@ -28,7 +28,7 @@ const SearchResults = () => {
                     <div id="google-results" className="card-parent"></div>
                 </div>
             </div>
-        </div>
+
     );
 };
 

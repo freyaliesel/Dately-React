@@ -1,6 +1,6 @@
 const Bucketlist = () => {
     return (
-        <div style={{ width: "80%", margin: "auto" }}>
+
             <div className="row">
                 <div className="col l4 hide-on-med-and-down">
                     <div className="bucketlist-img">
@@ -18,7 +18,7 @@ const Bucketlist = () => {
                     <div className="card-parent s1"></div>
                 </div>
             </div>
-        </div>
+
     );
 };
 

@@ -15,16 +15,16 @@ const Header = () => {
                 </Link> */}
                 <ul className="right hide-on-med-and-down">
                     <li className="waves-effect waves-light">
-                        <a href="index.html">home</a>
+                        <Link to="/">home</Link>
                     </li>
                     <li className="waves-effect waves-light">
-                        <a href="search.html">search</a>
+                        <Link to="/search">search</Link>
                     </li>
                     <li className="waves-effect waves-light">
-                        <a href="bucketlist.html">bucket list</a>
+                        <Link to="/bucketlist">bucket list</Link>
                     </li>
                     <li className="waves-effect waves-light">
-                        <a href="about.html">about</a>
+                        <Link to="/about">about</Link>
                     </li>
                 </ul>
             </div>
