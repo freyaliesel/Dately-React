@@ -1,0 +1,375 @@
+/* ====Universal Style==== */
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* =====Fonts and Styles====*/
+h1 {
+    font-weight: 900;
+   
+}
+
+h4,
+h5,
+h6 {
+    line-height: 2em;
+}
+
+/*===========*/
+body {
+    background: rgb(34, 12, 33);
+    background: linear-gradient(
+        130deg,
+        rgba(34, 12, 33, 1) 0%,
+        rgba(15, 30, 41, 1) 13%,
+        rgba(0, 0, 0, 1) 24%,
+        rgba(0, 0, 0, 1) 68%,
+        rgba(15, 30, 41, 1) 87%,
+        rgba(34, 12, 33, 1) 100%
+    );
+}
+
+/*===========*/
+nav {
+    height: 120px;
+}
+
+nav li {
+    width: 160px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 50px 10px;
+    box-shadow: 0px 0px 10px #ff009d;
+    line-height: 2.5;
+}
+
+nav li {
+    background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+        linear-gradient(to right, rgb(0, 221, 250), #8b35fb, #fb3570) border-box;
+}
+
+/*===========*/
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.search-page {
+    width: 90%;
+    margin: auto;
+}
+
+footer {
+    margin-top: 50px;
+    height: 60px;
+    color: rgb(189, 187, 187);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 350px;
+}
+
+.row {
+    padding-top: 60px;
+}
+
+.branding-img {
+    height: 750px;
+    transition-delay: 1s;
+    animation: fadeInAnimation ease 0.15s;
+}
+
+.chicago-img {
+    width: 650px;
+}
+
+.light-weight {
+    font-weight: 100;
+}
+
+#submit-btn {
+    text-align: left;
+    font-size: 16px;
+    background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+        linear-gradient(to right, rgb(0, 221, 250), #8b35fb, #fb3570) border-box;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    margin-top: 30px;
+    height: 40px;
+    box-shadow: 0px 0px 10px #ff009d;
+}
+
+.disabled {
+    box-shadow: none !important;
+}
+
+#search-icon {
+    margin-right: 45px;
+}
+
+.modal {
+    border-width: 3px;
+    border-style: solid;
+    background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+        linear-gradient(to right, rgb(0, 221, 250), #8b35fb, #fb3570) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.modal .btn-flat {
+    color: rgb(0, 221, 250);
+}
+
+.input-field {
+    border-width: 3px;
+}
+
+/* valid color */
+.input-field input[type="text"].valid {
+    border-bottom: 1px solid green;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* invalid color */
+.input-field input[type="text"].invalid,
+input.invalid[type="text"]:not(.browser-default):focus {
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.datepicker-date-display {
+    background-color: black;
+}
+
+.select-dropdown {
+    color: white;
+}
+
+svg {
+    fill: white;
+}
+
+.banner {
+    width: 100%;
+}
+
+
+.std-padding-left{
+    padding-left: 40px;
+}
+
+.chicago-image {
+    background-image: url("./links/chicago_image.jpg");
+    background-color: #cccccc;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+@media only screen and (max-width: 600px) {
+    .chicago-image {
+        height: 300px;
+    }
+}
+
+.chicago-image-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .chicago-image-text {
+        width:90%
+    }
+        h5{
+font-size: 18px;
+        }
+}
+
+/* Cards */
+.card-container {
+    background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+        linear-gradient(to right, rgb(0, 221, 250), #8b35fb, #fb3570) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: scroll;
+    max-height: 760px;
+}
+
+.card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.card.bucketlist-card {
+    display: flex;
+    background: rgb(1, 8, 13);
+    background: radial-gradient(
+        circle,
+        rgba(1, 8, 13, 1) 8%,
+        rgba(21, 47, 64, 1) 38%,
+        rgba(63, 177, 251, 1) 61%,
+        rgba(104, 21, 152, 1) 84%,
+        rgba(60, 10, 89, 1) 99%
+    );
+}
+
+.card.search-card {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 12px;
+}
+
+.card-content,
+.card-action {
+    padding-top: 0;
+}
+
+#about-lea img,
+#about-jenni img,
+#about-kit img {
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.card.about-card.search-card .card-action {
+    flex-direction: column;
+    width: 100%;
+}
+
+.card.selected {
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(251, 53, 113, 0.8);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(251, 53, 113, 0.8);
+    box-shadow: 0px 0px 20px 10px rgba(251, 53, 113, 0.8);
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.search-card.event .card-image {
+    background: rgb(1, 8, 13);
+    background: radial-gradient(
+        circle,
+        rgba(1, 8, 13, 1) 8%,
+        rgba(21, 47, 64, 1) 38%,
+        rgba(63, 177, 251, 1) 61%,
+        rgba(104, 21, 152, 1) 84%,
+        rgba(60, 10, 89, 1) 99%
+    );
+}
+
+.search-card.event .card-image img {
+    object-fit: contain;
+}
+
+.card .activator:hover {
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card .card-action {
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card .card-action:last-child {
+    align-self: flex-end;
+}
+
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track .card-container {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fb3570;
+    border-radius: 10px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .chicago-img {
+        width: 100%;
+        padding-right: 40px;
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .card {
+        flex: 0 0 auto;
+    }
+
+    .card-parent {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        justify-content:stretch;
+    }
+
+    .card-parent::-webkit-scrollbar {
+        display: none;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+}
